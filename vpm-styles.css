@@ -27,3 +27,7 @@ button, select, html, body, textarea, input {
 #fullArticle p, #fullArticle ul, #fullArticle ol, #fullArticle li, #fullArticle div, #fullArticle blockquote, #fullArticle dd, #fullArticle table {
   font-size: 1.6rem;
 }
+
+footer span {
+  display: none;
+}
