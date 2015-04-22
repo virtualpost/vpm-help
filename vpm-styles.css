@@ -5,7 +5,7 @@ html {
   line-height: 1.4;
 }
 
-button, select, html, textarea, input {
+button, select, html, body, textarea, input {
   font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif;
 }
 
