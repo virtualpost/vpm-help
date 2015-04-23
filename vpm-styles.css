@@ -29,7 +29,12 @@ button, select, html, body, textarea, input {
 }
 
 #fullArticle h3 {
-  font-size: 1.6em;
+  font-size: 1.8rem;
+  /*font-weight: 500;*/
+}
+
+#fullArticle h4 {
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
