@@ -28,8 +28,13 @@ button, select, html, body, textarea, input {
   font-weight: 500;
 }
 
+#fullArticle h3 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
 #fullArticle p, #fullArticle ul, #fullArticle ol, #fullArticle li, #fullArticle div, #fullArticle blockquote, #fullArticle dd, #fullArticle table {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 footer span {
