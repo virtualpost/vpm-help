@@ -1,5 +1,5 @@
 $('.current-status-indicator').ready(function($){
-  var statusAPI = "https://api.status.io/1.0/status/51f6f2088643809b7200000d";
+  var statusAPI = "https://api.status.io/1.0/status/56030d4de27987240700070c";
   var maxStatusCode = "";
   var maxStatusDescription = "";
   var sc = "";
