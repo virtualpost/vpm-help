@@ -22,22 +22,22 @@ $('.current-status-indicator').ready(function($){
     // Operational
     if (maxStatusCode === 100){
       $(".current-status-indicator").addClass("green");
-      $("#current-status-description").text(maxStatusDescription);
+      //$("#current-status-description").text(maxStatusDescription);
     }
     // Scheduled Maintenance
     if (maxStatusCode === 200){
       $(".current-status-indicator").addClass("blue");
-      $("#current-status-description").text(maxStatusDescription);
+      //$("#current-status-description").text(maxStatusDescription);
     }
     // Degraded Performance || Partial Outage
     if (maxStatusCode === 300 || maxStatusCode === 400){
       $(".current-status-indicator").addClass("yellow");
-      $("#current-status-description").text(maxStatusDescription);
+      //$("#current-status-description").text(maxStatusDescription);
     }
     // Service Disrtuption || Security Issue
     if (maxStatusCode === 500 || maxStatusCode === 600){
       $(".current-status-indicator").addClass("red");
-      $("#current-status-description").text(maxStatusDescription);
+      //$("#current-status-description").text(maxStatusDescription);
     }
   });
 });
