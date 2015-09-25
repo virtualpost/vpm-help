@@ -65,18 +65,18 @@ footer span {
     border-radius: 4px
 }
 
-.current-status-indicator.green {
-    background: #27ae60
+.current-status-indicator.none {
+    background: #2ecc71
 }
 
-.current-status-indicator.yellow {
-    background: #ffa837
+.current-status-indicator.minor {
+    background: #f1c40f
 }
 
-.current-status-indicator.red {
-    background: #c44031
+.current-status-indicator.major {
+    background: #e67e22
 }
 
-.current-status-indicator.blue {
-    background: #00aaf0
+.current-status-indicator.critical {
+    background: #e74c3c
 }
