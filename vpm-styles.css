@@ -17,6 +17,11 @@ button, select, html, body, textarea, input {
   font-weight: 400;
 }
 
+.brand img {
+  width: auto;
+  height: 25px;
+}
+
 #fullArticle .title {
   font-size: 2.4rem;
   margin-bottom: 3.2rem;
